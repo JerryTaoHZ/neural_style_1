@@ -56,3 +56,6 @@ def generate_input_image(noise = True, content_img = None, imsize = imsize):
         else:
             return content_img.clone()
 
+
+if __name__ == '__main__':
+    pass
