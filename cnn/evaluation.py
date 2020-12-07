@@ -45,8 +45,8 @@ def evaluation(pre_model, img_1, img_2,
     """
     # load the image
     imsize = 512 if torch.cuda.is_available() else 128  # use small size if no gpu
-    img_1 = image_loader(img_1)
-    img_2 = image_loader(img_2)
+    #img_1 = image_loader(img_1)
+    #img_2 = image_loader(img_2)
 
     cnn = copy.deepcopy(pre_model)
 
